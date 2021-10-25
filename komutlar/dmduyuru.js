@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const ayarlar = require('../ayarlar.json');
 
 exports.run = (client, message, args) => {
-if (message.author.id !=725110280249540708 ) { return; }
+if (message.author.id !=864948500075773972 ) { return; }
   let mesaj = args.slice(0).join(' ');
 if (mesaj.length < 1) return message.channel.send('Birşey Yazmalısınız');
   message.delete();
@@ -25,5 +25,5 @@ exports.conf = {
 exports.help = {
   name: 'dmduyuru',
   description: 'İstediğiniz şeyi bota duyurtur.',
-  usage: 'duyuru [duyurmak istediğiniz şey]'
+  usage: 'duyuru [-dmduyuru  8 İnvite = Nitro Classic]'
 };
