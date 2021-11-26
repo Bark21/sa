@@ -6,8 +6,8 @@ const { prefix } = require('../ayarlar.json')
 module.exports = client => {
   var degisenOynuyor = [
     
-    "Barkın#0001",
-    "DM Duyuru Alt Yapısı"
+    "Suiiii ?",
+    "Win Lan Win "
     
   ]
   
@@ -17,6 +17,6 @@ module.exports = client => {
 
 }, 3 * 2000);
   
-  client.user.setStatus("idle"); //dnd, idle, online, offline
+  client.user.setStatus("online"); //dnd, idle, online, offline
   
 }
